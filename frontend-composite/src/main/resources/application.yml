@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+app:
+  coupon-service:
+    baseUrl: https://localhost:18083/coupon-service
+  profile-service:
+    baseUrl: https://localhost:18081/profile-service
+  coin-service:
+    baseUrl: https://localhost:18082/coin-service
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %m%n"
+  level:
+    root: INFO
