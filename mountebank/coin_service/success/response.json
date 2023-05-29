@@ -1,0 +1,7 @@
+{
+    "status_code": "200",
+    "status_message": "Success.",
+    "data": {
+        "total_coin": 100
+    }
+}

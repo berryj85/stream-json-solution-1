@@ -1,0 +1,9 @@
+{
+    "status_code": "200",
+    "status_message": "Success.",
+    "data": {
+        "account_id": 1000,
+        "email": "email@mail.com",
+        "name": "Firstname Lastname"
+    }
+}

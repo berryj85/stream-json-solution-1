@@ -1,0 +1,11 @@
+{
+    "port": "18082",
+    "protocol": "https",
+    "name": "coin-service",
+    "stubs":[
+        {
+            "predicates": [<% include success/predicate.ejs %>],
+            "responses": [<% include success/response.ejs %>]
+        }
+    ]
+}

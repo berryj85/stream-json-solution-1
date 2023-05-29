@@ -1,0 +1,18 @@
+{
+    "status_code": "200",
+    "status_message": "Success.",
+    "data": [
+        {
+            "coupon_id": "coupon-id-1",
+            "display_name": "coupon display name 1",
+            "coupon_type": "DISCOUNT",
+            "coupon_value": 100.00
+        },
+        {
+            "coupon_id": "coupon-id-2",
+            "display_name": "coupon display name 2",
+            "coupon_type": "DISCOUNT",
+            "coupon_value": 40.00
+        }
+    ]
+}

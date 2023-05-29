@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mountebank": "^2.8.2"
+  },
+  "scripts": {
+    "start": "mb start --configfile imposters.ejs"
+  },
+  "name": "mountebank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

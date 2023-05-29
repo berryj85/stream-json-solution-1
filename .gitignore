@@ -1,2 +1,5 @@
 /frontend-composite/target/
 /frontend-composite/.idea/
+/mountebank/mb.log
+/mountebank/mb.pid
+/mountebank/mb1.log
