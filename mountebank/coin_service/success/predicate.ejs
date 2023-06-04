@@ -1,9 +1,23 @@
 {
     "and":[
         {
-            "startsWith": {
-                "path": "/coin-service/success_user"
-            }
+            "or":[
+                {
+                    "startsWith": {
+                        "path": "/coin-service/success_user"
+                    }
+                },
+                {
+                    "startsWith": {
+                        "path": "/coin-service/error_coupon"
+                    }
+                },
+                {
+                    "startsWith": {
+                        "path": "/coin-service/error_profile"
+                    }
+                }
+            ]
         },
         {
             "equals":{

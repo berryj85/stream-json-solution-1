@@ -1,9 +1,23 @@
 {
     "and":[
         {
-            "startsWith": {
-                "path": "/coupon-service/success_user"
-            }
+            "or":[
+                {
+                    "startsWith": {
+                        "path": "/coupon-service/success_user"
+                    }
+                },
+                {
+                    "startsWith": {
+                        "path": "/coupon-service/error_coin"
+                    }
+                },
+                {
+                    "startsWith": {
+                        "path": "/coupon-service/error_profile"
+                    }
+                }
+            ]
         },
         {
             "equals":{
