@@ -1,6 +1,6 @@
 package berryj.poc.streamjson.composite.controller
 
-import berryj.poc.streamjson.composite.response.ProfileResponse
+import berryj.poc.streamjson.composite.response.CommonProfileResponse
 import berryj.poc.streamjson.composite.service.ProfileService
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
@@ -14,7 +14,7 @@ import reactor.core.publisher.Flux
 class ProfileController (private val profileService: ProfileService){
 
     @GetMapping("/{account-id}", produces = [MediaType.APPLICATION_NDJSON_VALUE])
-    fun getProfile(@PathVariable("account-id", required = true) accountId:String):Flux<ProfileResponse>{
+    fun getProfile(@PathVariable("account-id", required = true) accountId:String):Flux<CommonProfileResponse>{
         return profileService.getProfile(accountId)
     }
 
